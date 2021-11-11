@@ -2,6 +2,7 @@
   <div id="app">
     <Navbar />
     <router-view/>
+
   </div>
 </template>
 
@@ -41,4 +42,10 @@ body{
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+h1{
+  text-align: left;
+  font-size: 2em;
+}
+
 </style>

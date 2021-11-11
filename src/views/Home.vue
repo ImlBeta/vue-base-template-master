@@ -1,8 +1,12 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Mu"/>
-  </div>
+    <HelloWorld msg="Welcome to ImlBeta"/>
+    <a-date-picker @change="onChange" />
+    <a-upload>
+           <a-button> <a-icon type="upload" /> Click to Upload </a-button>
+    </a-upload>
+    </div>
 </template>
 
 <script>
