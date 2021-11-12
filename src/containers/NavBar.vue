@@ -1,9 +1,10 @@
 <template>
   <nav class="app-navbar">
     <a-row>
-      <NavButton label="Home" path="/" :grid="gridButtons" />
+      <NavButton label="Login" path="/" :grid="gridButtons" />
       <NavButton label="About" path="/about" :grid="gridButtons" />
-      <NavButton label="Mau es hetero" path="/mau" :grid="gridButtons" />
+      <NavButton label="Info" path="/mau" :grid="gridButtons" />
+      <NavButton label="Boton" path="/ejemplo" :grid="gridButtons" />
     </a-row>
   </nav>
 </template>
@@ -32,10 +33,10 @@ export default {
 
 <style>
 .app-navbar{
-  background: rgb(255, 0, 0);
+  background: rgb(159, 34, 65);
 }
 .nav-button{
-  background-color: orange;
+  background-color: rgb(159, 34, 65);
   min-height: 35px;
   display: flex;
   justify-content: center;
