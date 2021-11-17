@@ -96,6 +96,7 @@
         </a-breadcrumb-item>
         <a-breadcrumb-item> Application </a-breadcrumb-item>
       </a-breadcrumb>
+
     </div>
   </div>
 </template>
@@ -130,7 +131,8 @@ img {
 }
 #components-form-demo-normal-login .login-form-button {
   width: 5%;
-}
+
+ }
 .space-align-container {
   display: flex;
   align-items: center;
