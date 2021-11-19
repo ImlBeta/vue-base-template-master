@@ -3,12 +3,13 @@
 </template>
 
 <script>
-import Input from '../components/Formulario/Input.vue'
+import Input from '../components/Formulario/Input.vue';
+
 export default {
-components: {
-  Input
+  components: {
+    Input
   }
-}
+};
 </script>
 
 <style>
